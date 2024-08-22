@@ -8,14 +8,16 @@ box-sizing: border-box;
 }
 
 body{
-background-color: #A9A9A9;
+
+background-color: black;
 }
 
 header{
 padding: 20px;
 width: 100%;
-background-color: transparent;
+background-color: black;
 }
+
 footer{
 padding: 20px;
 Display: flex;
@@ -30,11 +32,12 @@ color: White;
 
 p{
 text-align: center;
+color: #D3d3d3;
 }
 
 a{
 text-decoration: none;
-color: black;
+color: #D3d3d3;
 }
 
 #nav_list{
@@ -53,7 +56,9 @@ padding-bottom: 50px;
 #inic{
 Display: flex;
 align-items: center;
-flex-direction: column;
+flex-direction: row;
+justify-content: space-around;
+background-color: #32004A;
 }
 
 #come{
@@ -62,12 +67,14 @@ gap: 30px;
 flex-direction: column;
 padding-left: 80px;
 padding-right: 80px;
+padding-top: 35px;
 }
 
 .home{
 Display:flex;
 flex-direction: column;
 align-items: center;
+background-color: black;
 }
 
 
@@ -78,11 +85,16 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 3px solid #32004A;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+background-color: #dddddd;
+color: black;
+}
+
+tr{
+color: #D3d3d3;
 }
